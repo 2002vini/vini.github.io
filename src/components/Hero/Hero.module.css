@@ -1,0 +1,132 @@
+.hero {
+    background-color: var(--color-bg);
+    padding: 50px 20px;
+    opacity: var(--dynamic-opacity, 1); /* Use the dynamic opacity value */
+
+
+  }
+  
+  .heroContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+  }
+  
+  .heroText h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .heroText p {
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-bottom: 30px;
+    line-height: 1.6;
+    
+  }
+  
+  .heroButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-bg);
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .heroButton:hover {
+    background-color: white;
+    color: black;
+    border: 0px;
+  }
+  
+  .heroImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .heroImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .heroContainer {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  
+    .heroText h1 {
+      font-size: 2.5rem;
+    }
+  
+    .heroText p {
+      font-size: 1rem;
+    }
+  
+    .heroImage img {
+      max-width: 80%;
+    }
+  }
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+  
+  .topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background:rgba(87, 108, 188,0.2);
+    filter: blur(100px);
+    z-index: 0;
+  }
+  
+  .bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(87, 108, 188,0.2);
+    filter: blur(100px);
+    z-index: 0;
+  }

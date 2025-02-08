@@ -1,0 +1,127 @@
+/* Navbar container */
+.navbar {
+    background-color: var(--color-bg);
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Navbar inner container */
+  .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo */
+  .navbarLogo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text-inverse);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Navbar menu */
+  .navbarMenu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar menu items */
+  .navbarItem {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .navbarLink {
+    text-decoration: none;
+    color: var(--color-text-inverse);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--color-bg);
+    border:none
+  }
+  
+  .navbarLink:hover {
+    color: var(--color-secondary-light);
+  }
+  
+  /* Hamburger menu */
+  .navbarToggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-text-inverse);
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-text-inverse);
+    border-radius: 5px;
+  }
+  
+  .hamburger::before {
+    top: -8px;
+  }
+  
+  .hamburger::after {
+    top: 8px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbarMenu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: var(--color-primary);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px 20px;
+      gap: 10px;
+    }
+  
+    .navbarMenu.open {
+      display: flex;
+      align-items: center;
+    border-radius: 10px;
+    background: rgb(87, 108, 188);
+    background: linear-gradient(
+      0deg,
+      rgba(87, 108, 188,0.2) 0%
+      rgba(87, 108, 188,1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+  
+    .navbarToggle {
+      display: block;
+    }
+  }
+  

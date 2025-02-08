@@ -1,0 +1,112 @@
+
+  .educationSection {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-bg);
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .educationImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stepperContainer {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .stepper {
+    position: relative;
+  }
+  
+  .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .stepMarker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .stepCircle {
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    z-index: 1;
+  }
+  
+  .stepLine {
+    width: 4px;
+    height: 100%;
+    background-color: var(--color-secondary);
+  }
+  
+  .stepDetails {
+    text-align: left;
+  }
+  
+  .year {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: var(--color-secondary);
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .educationSection {
+      flex-direction: column;
+    }
+  
+    .imageContainer,
+    .stepperContainer {
+      max-width: 100%;
+    }
+  
+    .heading {
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+@import './vars.css';
+
+.App {
+    min-height: 100vh; /* Ensures the full viewport height */
+    width: 100%;
+    background-color: var(--color-bg);
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    overflow-y: auto; /* Allows vertical scrolling */
+    display: flex;
+    flex-direction: column; /* Stacks the content vertically */
+   
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    width: 100%;
+    min-height: 100vh; /* Ensures full height coverage */
+    background-color: var(--color-bg);
+}
