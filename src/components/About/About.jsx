@@ -8,7 +8,7 @@ export const About = () => {
       <div className={styles.container}>
         {/* Card 1 */}
         <div className={styles.card}>
-          <img src="../../../assets/about/backend.webp" alt="Skill 1" className={styles.image} />
+          <img src="/assets/about/backend.webp" alt="Skill 1" className={styles.image} />
           <h3 className={styles.name}>Backend Development</h3>
           <p className={styles.description}>
             Skilled in server-side development using Node.js, Django, and databases like MongoDB, PostgreSQL, and MySQL.
@@ -17,7 +17,7 @@ export const About = () => {
 
         {/* Card 2 */}
         <div className={styles.card}>
-          <img src="../../../assets/about/frontend.jpg" alt="Skill 2" className={styles.image} />
+          <img src="/assets/about/frontend.jpg" alt="Skill 2" className={styles.image} />
           <h3 className={styles.name}>Frontend Development</h3>
           <p className={styles.description}>
           Expertise in building responsive and interactive user interfaces with modern frameworks like React, Vue, and Angular.
@@ -26,14 +26,14 @@ export const About = () => {
 
         {/* Card 3 */}
         <div className={styles.card}>
-          <img src="../../../assets/about/competitive.png" alt="Skill 3" className={styles.image} />
+          <img src="/assets/about/competitive.png" alt="Skill 3" className={styles.image} />
           <h3 className={styles.name}>Competitve Programming</h3>
           <p className={styles.description}>
           Proficient in solving algorithmic challenges on platforms like Codeforces, LeetCode, and HackerRank.
           </p>
         </div>
         <div className={styles.card}>
-          <img src="../../../assets/about/system.png" alt="Skill 4" className={styles.image} />
+          <img src="/assets/about/system.png" alt="Skill 4" className={styles.image} />
           <h3 className={styles.name}>Solution Architect</h3>
           <p className={styles.description}>
           AWS Certified Solutions Architect with experience in designing and implementing scalable cloud solutions.
