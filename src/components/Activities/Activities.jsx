@@ -25,8 +25,8 @@ const ActivityCard = ({ title, description, icon }) => {
     <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
       <Card
         sx={{
-          backgroundColor: "var(--color-secondary)",
-          color: "var(--color-text)",
+          backgroundColor: "#19376d",
+          color: "#fff",
           borderRadius: "10px",
           boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
           textAlign: "center",

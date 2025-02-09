@@ -33,7 +33,7 @@ const ProjectCard = ({ title, description, techStack, image, link }) => {
       <Card
         sx={{
           backgroundColor: "#fff", // White background for contrast
-          color: "var(--color-dark)",
+          color: "#0b2447",
           borderRadius: "10px",
           boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.2)",
           textAlign: "center",
@@ -53,7 +53,7 @@ const ProjectCard = ({ title, description, techStack, image, link }) => {
           <Typography variant="body2" sx={{ mb: 2 }}>
             {description}
           </Typography>
-          <Typography variant="subtitle2" sx={{ fontWeight: "bold", color: "var(--color-primary)" }}>
+          <Typography variant="subtitle2" sx={{ fontWeight: "bold", color: "rgb(87, 108, 188)" }}>
             Tech Stack:
           </Typography>
           <Typography variant="body2" sx={{ fontSize: "14px" }}>
@@ -64,9 +64,9 @@ const ProjectCard = ({ title, description, techStack, image, link }) => {
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "var(--color-primary)",
-              color: "var(--color-text)",
-              "&:hover": { backgroundColor: "var(--color-dark)" },
+              backgroundColor: "rgb(87, 108, 188)",
+              color: "#fff",
+              "&:hover": { backgroundColor: "v#0b2447" },
             }}
             href={link}
             target="_blank"
@@ -81,8 +81,8 @@ const ProjectCard = ({ title, description, techStack, image, link }) => {
 
 export const Projects = () => {
   return (
-    <Box sx={{ backgroundColor: "var(--color-bg)", py: 6, textAlign: "center", width: "100%" }}>
-      <Typography variant="h4" sx={{ color: "var(--color-text)", mb: 4, fontWeight: "bold" }}>
+    <Box sx={{ backgroundColor: "#04152d", py: 6, textAlign: "center", width: "100%" }}>
+      <Typography variant="h4" sx={{ color: "#fff", mb: 4, fontWeight: "bold" }}>
         Projects
       </Typography>
       <Grid container spacing={4} justifyContent="center">

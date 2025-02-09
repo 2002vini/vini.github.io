@@ -30,7 +30,7 @@
   
   .heading {
     font-size: 2.5rem;
-    color: var(--color-primary);
+    color: rgb(87, 108, 188);
     margin-bottom: 30px;
     text-align: left;
   }
@@ -56,7 +56,7 @@
   .stepCircle {
     width: 20px;
     height: 20px;
-    background-color: var(--color-primary);
+    background-color: rgb(87, 108, 188);
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -70,7 +70,7 @@
   .stepLine {
     width: 4px;
     height: 100%;
-    background-color: var(--color-secondary);
+    background-color: #19376d;
   }
   
   .stepDetails {
@@ -79,19 +79,19 @@
   
   .year {
     font-size: 1.2rem;
-    color: var(--color-primary);
+    color: rgb(87, 108, 188);
     margin-bottom: 5px;
   }
   
   .title {
     font-size: 1.5rem;
-    color: var(--color-text);
+    color: #fff;
     margin-bottom: 10px;
   }
   
   .description {
     font-size: 1rem;
-    color: var(--color-secondary);
+    color: #19376d;
     line-height: 1.6;
   }
   
