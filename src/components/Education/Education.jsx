@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Grid, Typography, Stepper, Step, StepLabel, StepContent, CssVarsProvider, autocompleteClasses } from "@mui/material";
+
 const educationData = [
   {
     year: "2025",
@@ -19,6 +20,7 @@ const educationData = [
 ];
 
 export const Education = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   return (
     <Box sx={{ backgroundColor: "var(--color-bg)", py: 6 }} id="education">
       <Grid container spacing={4} justifyContent="center" alignItems="center">
@@ -26,7 +28,7 @@ export const Education = () => {
         <Grid item xs={12} md={6}>
           <Box
             component="img"
-            src="/assets/about/education.png"
+            src={`${baseUrl}/assets/about/education.png`}
             alt="Education"
             sx={{
               width:"60%",

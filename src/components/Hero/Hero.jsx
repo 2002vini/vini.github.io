@@ -3,7 +3,8 @@ import styles from"./Hero.module.css"; // Import the CSS file for styling
 import { getImageUrl } from "../../utils";
 import { useState } from "react";
 export const Hero = () => {
-   
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <section className={styles.hero}>
       <div className={styles.heroContainer}>
@@ -27,7 +28,7 @@ export const Hero = () => {
         </div>
 
         <div className={styles.heroImage}>
-          <img src="/assets/hero/heroImage.png" alt="Hero" />
+          <img src={`${baseUrl}/assets/hero/heroImage.png`} alt="Hero" />
         </div>
        <div className={styles.topBlur}></div>
        <div className={styles.bottomBlur}></div>
