@@ -54,8 +54,8 @@ export const Activities = () => {
   return (
     <>
       {/* Co-Curricular Section */}
-      <Box sx={{ backgroundColor: "var(--color-bg)", py: 6, textAlign: "center", width: "100%" }}>
-        <Typography variant="h4" sx={{ color: "var(--color-text)", mb: 4, fontWeight: "bold" }}>
+      <Box sx={{ backgroundColor: "#04152d", py: 6, textAlign: "center", width: "100%" }}>
+        <Typography variant="h4" sx={{ color: "#fff", mb: 4, fontWeight: "bold" }}>
           Co-Curricular Activities
         </Typography>
         <Grid container spacing={4} justifyContent="center" alignItems="stretch">
@@ -68,8 +68,8 @@ export const Activities = () => {
       </Box>
 
       {/* Extra-Curricular Section */}
-      <Box sx={{ backgroundColor: "var(--color-bg)", py: 6, textAlign: "center", width: "100%" }}>
-        <Typography variant="h4" sx={{ color: "var(--color-text)", mb: 4, fontWeight: "bold" }}>
+      <Box sx={{ backgroundColor: "#04152d", py: 6, textAlign: "center", width: "100%" }}>
+        <Typography variant="h4" sx={{ color: "#fff", mb: 4, fontWeight: "bold" }}>
           Extra-Curricular Activities
         </Typography>
         <Grid container spacing={4} justifyContent="center" alignItems="stretch">

@@ -72,12 +72,12 @@ export const Experience = () => {
   };
 
   return (
-    <Box sx={{ backgroundColor: "var(--color-bg)", py: 6, position: "relative"}} id="experience">
+    <Box sx={{ backgroundColor: "#04152d", py: 6, position: "relative"}} id="experience">
       <Typography
         variant="h4"
         component="h2"
         sx={{
-          color: "var(--color-text)",
+          color: "#fff",
           mb: 4,
           fontWeight: "bold",
           textAlign: "center",
@@ -113,14 +113,14 @@ export const Experience = () => {
                   "&:hover": { boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.2)" },
                 }}
               >
-                <WorkIcon sx={{ fontSize: 40, color: "var(--color-primary)" }} />
-                <Typography variant="h6" sx={{ fontWeight: "bold", color: "var(--color-dark)", mt: 2 }}>
+                <WorkIcon sx={{ fontSize: 40, color: "rgb(87, 108, 188)" }} />
+                <Typography variant="h6" sx={{ fontWeight: "bold", color: "#0b2447", mt: 2 }}>
                   {item.year}
                 </Typography>
-                <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "var(--color-primary)" }}>
+                <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "rgb(87, 108, 188)" }}>
                   {item.title}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "var(--color-secondary)", mt: 1 }}>
+                <Typography variant="body2" sx={{ color: "#19376d", mt: 1 }}>
                   {item.company}
                 </Typography>
               </Box>
@@ -155,8 +155,8 @@ export const Experience = () => {
           exit={{ opacity: 0, scale: 0.8 }}
           transition={{ duration: 0.5 }}
           sx={{
-            backgroundColor: "var(--color-dark)",
-            color: "var(--color-text)",
+            backgroundColor: "#0b2447",
+            color: "#fff",
             borderRadius: "12px",
             padding: "30px",
             width: "90%",
@@ -171,7 +171,7 @@ export const Experience = () => {
               position: "absolute",
               top: 10,
               right: 10,
-              color: "var(--color-text)",
+              color: "#fff",
             }}
           >
             <CloseIcon />
@@ -182,17 +182,17 @@ export const Experience = () => {
               <Typography variant="h5" sx={{ fontWeight: "bold", textAlign: "center", mb: 1 }}>
                 {experienceData[selectedExperience].title}
               </Typography>
-              <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "var(--color-primary)", textAlign: "center" }}>
+              <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "rgb(87, 108, 188)", textAlign: "center" }}>
                 {experienceData[selectedExperience].company} - {experienceData[selectedExperience].year}
               </Typography>
 
-              <Box sx={{ backgroundColor: "var(--color-bg)", padding: "16px", borderRadius: "8px", mt: 2 }}>
+              <Box sx={{ backgroundColor: "#04152d", padding: "16px", borderRadius: "8px", mt: 2 }}>
                 <Typography variant="body1" sx={{ whiteSpace: "pre-wrap", lineHeight: 1.6 }}>
                   {displayedText}
                 </Typography>
               </Box>
 
-              <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "var(--color-primary)", textAlign: "center" }}>
+              <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "rgb(87, 108, 188)", textAlign: "center" }}>
                 Tech Stack:
               </Typography>
               <Typography variant="body2" sx={{ mt: 1, textAlign: "center", fontWeight: "bold", letterSpacing: "1px" }}>

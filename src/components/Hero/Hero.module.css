@@ -1,7 +1,7 @@
 .hero {
-    background-color: var(--color-bg);
+    background-color: #04152d;
     padding: 50px 20px;
-    opacity: var(--dynamic-opacity, 1); /* Use the dynamic opacity value */
+    opacity: 1; /* Use the dynamic opacity value */
 
 
   }
@@ -31,7 +31,7 @@
   
   .heroText p {
     font-size: 1.2rem;
-    color: var(--color-text);
+    color: #fff;
     margin-bottom: 30px;
     line-height: 1.6;
     
@@ -40,7 +40,7 @@
   .heroButton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--color-bg);
+    background-color: #04152d;
     color: white;
     font-size: 1rem;
     text-decoration: none;
@@ -112,7 +112,7 @@
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background:rgba(87, 108, 188,0.2);
+    background:rgba(87, 108, 188,0.3);
     filter: blur(100px);
     z-index: 0;
   }

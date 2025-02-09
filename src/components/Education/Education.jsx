@@ -22,7 +22,7 @@ const educationData = [
 export const Education = () => {
   const baseUrl = import.meta.env.BASE_URL;
   return (
-    <Box sx={{ backgroundColor: "var(--color-bg)", py: 6 }} id="education">
+    <Box sx={{ backgroundColor: "#04152d", py: 6 }} id="education">
       <Grid container spacing={4} justifyContent="center" alignItems="center">
         {/* Left Image Section */}
         <Grid item xs={12} md={6}>
@@ -45,7 +45,7 @@ export const Education = () => {
           <Typography
             variant="h4"
             component="h2"
-            sx={{ color: "var(--color-text)", mb: 4, fontWeight: "bold", textAlign: { xs: "center", md: "left" } }}
+            sx={{ color: "#fff", mb: 4, fontWeight: "bold", textAlign: { xs: "center", md: "left" } }}
           >
             Education
           </Typography>
@@ -53,15 +53,15 @@ export const Education = () => {
             {educationData.map((item, index) => (
               <Step key={index} active>
                 <StepLabel>
-                  <Typography variant="h6" sx={{ color: "var(--color-primary)", fontWeight: "bold" }}>
+                  <Typography variant="h6" sx={{ color: "rgb(87, 108, 188)", fontWeight: "bold" }}>
                     {item.year}
                   </Typography>
                 </StepLabel>
                 <StepContent>
-                  <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "var(--color-text)" }}>
+                  <Typography variant="subtitle1" sx={{ fontWeight: "bold", color: "#fff" }}>
                     {item.title}
                   </Typography>
-                  <Typography variant="body2" sx={{ color: "var(--color-text)", mt: 1 }}>
+                  <Typography variant="body2" sx={{ color: "#fff", mt: 1 }}>
                     {item.description}
                   </Typography>
                 </StepContent>

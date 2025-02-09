@@ -11,8 +11,8 @@ export const Footer = () => {
     <Box
       component="footer"
       sx={{
-        backgroundColor: "var(--color-bg)",
-        color: "var(--color-text)",
+        backgroundColor: "#04152d",
+        color: "#fff",
         py: 4,
         textAlign: "center",
         mt: 6,
@@ -31,7 +31,7 @@ export const Footer = () => {
             component={Link}
             href="https://github.com/2002vini"
             target="_blank"
-            sx={{ color: "var(--color-text)", mx: 1 }}
+            sx={{ color: "#fff", mx: 1 }}
           >
             <GitHubIcon fontSize="large" />
           </IconButton>
@@ -39,14 +39,14 @@ export const Footer = () => {
             component={Link}
             href="hhttps://www.linkedin.com/in/vinihundlani/"
             target="_blank"
-            sx={{ color: "var(--color-text)", mx: 1 }}
+            sx={{ color: "#fff", mx: 1 }}
           >
             <LinkedInIcon fontSize="large" />
           </IconButton>
           <IconButton
             component={Link}
             href="mailto:hundlanivini2002@gmail.com"
-            sx={{ color: "var(--color-text)", mx: 1 }}
+            sx={{ color: "#fff", mx: 1 }}
           >
             <EmailIcon fontSize="large" />
           </IconButton>
@@ -64,7 +64,7 @@ export const Footer = () => {
           <motion.div whileHover={{ scale: 1.2 }}>
             <IconButton
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              sx={{ color: "var(--color-primary)" }}
+              sx={{ color: "rgb(87, 108, 188)" }}
             >
               <ArrowUpwardIcon fontSize="large" />
             </IconButton>
