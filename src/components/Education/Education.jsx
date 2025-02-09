@@ -26,7 +26,7 @@ export const Education = () => {
         <Grid item xs={12} md={6}>
           <Box
             component="img"
-            src="../../../assets/about/education.png"
+            src="/assets/about/education.png"
             alt="Education"
             sx={{
               width:"60%",

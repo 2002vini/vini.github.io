@@ -7,21 +7,21 @@ const projectsData = [
     title: "LLM Health Chatbot",
     description: "Built an AI-powered chatbot that reads prescriptions using Azure OCR and provides medical assistance.",
     techStack: ["Python", "FastAPI", "Azure OCR", "LLMs"],
-    image: "../../../assets/projects/chatbot.webp", // Replace with project-specific image
+    image: "/assets/projects/chatbot.webp", // Replace with project-specific image
     link: "https://github.com/your-repo",
   },
   {
     title: "Property Management Website",
     description: "Created a full stack website in java using jsp, servlet, html and css for management of profile",
     techStack: ["AI", "Machine Learning", "Blockchain", "Smart Contracts"],
-    image: "../../../assets/projects/java.jpg",
+    image: "/assets/projects/java.jpg",
     link: "https://github.com/your-repo",
   },
   {
     title: "Document Management system using Blockchain and ipfs",
     description: "Created a digilocker using nextjs, ipfs and blockchain for management of documents",
     techStack: ["HTML/CSS", "Blockchain", "Nextjs", "IPFS"],
-    image: "../../../assets/projects/blockchain.png",
+    image: "/assets/projects/blockchain.png",
     link: "https://github.com/your-repo",
   },
 ];
