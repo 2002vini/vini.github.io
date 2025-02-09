@@ -13,9 +13,8 @@ export const Footer = () => {
       sx={{
         backgroundColor: "#04152d",
         color: "#fff",
-        py: 4,
+        py: 10,
         textAlign: "center",
-        mt: 6,
       }}
       id="footer"
     >
