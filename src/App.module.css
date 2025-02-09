@@ -1,7 +1,9 @@
-@import './styles/vars.css';
 
 
-
+:root{
+    background-color: #04152d;
+    overflow-x: hidden !important;
+}
 .App {
     min-height: 100vh; /* Ensures the full viewport height */
     width: 100%;
@@ -17,7 +19,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden; 
     width: 100%;
     min-height: 100vh; /* Ensures full height coverage */
     background-color: #04152d;

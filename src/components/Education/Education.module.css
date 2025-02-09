@@ -2,7 +2,7 @@
   .educationSection {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--color-bg);
+    background-color: #04152d;
     padding: 50px 20px;
     align-items: center;
     justify-content: center;
